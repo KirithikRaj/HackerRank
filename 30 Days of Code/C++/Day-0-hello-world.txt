@@ -1,1 +1,16 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
 
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    string inputString;
+    getline(cin, inputString);
+    printf("Hello, World.\n");
+    cout<<(inputString);
+    return 0;
+}
