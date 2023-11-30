@@ -1,1 +1,20 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
 
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */
+    int a; float f; string l;
+    cin>>a>>f;
+    cin.ignore(1000, '\n');
+    getline(cin, l);
+    cout<<a+4<<endl;
+    printf("%0.1f", f + 4.0);
+    cout<<"\nHackerRank "<<l;
+    return 0;
+}
